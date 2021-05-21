@@ -1,0 +1,15 @@
+
+
+.iss_cards:first-child {
+    max-width: 700px;
+    height: auto;
+    margin: -700px auto auto auto;
+   }
+
+   .iss_cards img{
+       margin-bottom: 30px;
+   }
+   
+.iss_cards p{
+ color: white;
+}

@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Russo One', sans-serif;
+    color: #000;
+}
+
+body {
+    background-image: url(/space/assets/img/login_img.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.login {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    width: 200px;
+    height: auto;
+    margin: 4% 4% 0 0;
+
+}
+
+.login h4 {
+    position: relative;
+    color: #FFF;
+    animation-name: float;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+
+}
+
+@keyframes float {
+    0% {
+        left: -80px;
+        color: black;
+        opacity: 0.2;
+    }
+
+    50% {
+        left: 50px;
+        color: white;
+        opacity: 1;
+    }
+
+    100% {
+        left: 160px;
+        color: black;
+    }
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    max-width: 250px;
+}
+
+form label {
+ margin: auto;
+}
+
+#username {
+    margin-top: 10px;
+}
+
+.login form input {
+    width: 100%;
+    margin: 3px 0;
+    height: 20px;
+    padding-left: 5px;
+    border-radius: 5px;
+    border: 0;
+}
+
+.login form button {
+    width: 90px;
+    margin: 5px auto; 
+    height: 18px;
+    font-size: 10px;
+    letter-spacing: 3px;
+    border-radius: 5px;
+    border: 0.2px solid #39434D;
+    box-shadow: 1px 1px 5px #0A447E;
+}
+
+.login form button:hover {
+    border: 1px solid #39434D;
+    box-shadow: 1px 1px 5px 3px #000;
+}
+
+.login form button:active {
+    border: 0;
+    box-shadow: 1px 1px 5px 3px #FFF;
+}
+
+.register h4 {
+    text-align: center;
+    color: #FFF;
+    text-shadow: 2px 2px 4px #7ABCFF;
+}
+
+.register{
+    margin-top: 10%;
+}
+
+.register form {
+    margin: 0 auto;
+    max-width: 300px;
+    height: auto;
+}
+
+#r_username {
+    margin-top: 20px;
+    width: 100;
+}
+
+.register form input {
+    padding-left: 5px;
+    margin-top: 10px;
+    width: 100%;
+    height: 20px;
+    border-radius: 5px;
+    border: 0.2px solid #39434D;
+    box-shadow: 3px 3px 5px #0A447E;
+}
+
+.register form button {
+    margin: 15px auto;
+    width: 110px;
+    letter-spacing: 5px;
+    border-radius: 5px;
+    border: 0.2px solid #39434D;
+    box-shadow: 3px 3px 5px #0A447E;
+}
+
+.register form button:hover {
+    border: 1px solid #39434D;
+    box-shadow: 1px 1px 20px 5px #000;
+}
+
+.register form button:active {
+    border: 0.2px solid #39434D;
+    box-shadow: 1px 1px 20px 5px #FFF;
+}

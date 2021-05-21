@@ -1,0 +1,16 @@
+
+
+.hubble_cards:first-child {
+    max-width: 700px;
+    height: auto;
+    margin: -710px auto auto auto;
+   }
+
+   .hubble_cards img{
+       margin-bottom: 30px;
+   }
+
+
+.hubble_cards p{
+ color: white;
+}
